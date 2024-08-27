@@ -1,10 +1,13 @@
 
 <template>
 <contador></contador>
-</template>
+<lista></lista>
+</template> 
 
 <script setup>
 import contador from  './components/contador.vue'
+import lista from './components/ListaDeTareas.vue'
+
 
 </script>
 

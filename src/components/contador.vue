@@ -6,8 +6,12 @@
 </template>
 
 <script setup>
+//Importamos ref para crear variables reactivas
 import {ref} from 'vue';
+
+//creamos unas constante llamada contador
 const contador = ref(0);
+
 //Funcion para incrementar
 const incrementar = () =>{
   contador.value++
